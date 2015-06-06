@@ -1,0 +1,8 @@
+# Ignore codekit
+/config.codekit
+
+# Ignore all .DS_Stores
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
