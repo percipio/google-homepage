@@ -3,7 +3,7 @@
 <head>
   <meta content="Search Joe's version of the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description">
   <meta content="noodp" name="robots">
-  <meta content="assets/images/google_favicon_128.png" itemprop="image">
+  <meta content="/assets/images/google_favicon_128.png" itemprop="image">
   <title>Joe's Google</title>
   <link href="/assets/stylesheets/styles.css" media="all" rel="stylesheet">
 </head>
@@ -38,10 +38,60 @@
       </ul>
     </div>
     <div class="content">
-
+      <center>
+        <div class="logo">
+          <img id="logo" src="https://www.google.com/images/srpr/logo11w.png" alt="google logo" height="95" width="269">
+        </div>
+        <div class="search">
+          <form class="search_form" action="/search">
+            <div class="search_bar">
+              <div class="mic">
+                <a href="/search">
+                  <span></span>
+                </a>
+              </div>
+              <div class="search_input">
+                <div class="mic"></div>
+                <input type="text" name="search" class="search_box" onfocus="if(this.value == 'Search Google') { this.value = ''; }" value="Search Google">
+              </div>
+            </div>
+            <div class="search_buttons">
+              <center>
+                <input type="submit" value="Google Search" name="search_btn_g">
+                <input type="submit" value="I'm Feeling Lucky" name="search_btn_l">
+              </center>
+            </div>
+          </form>
+        </div>
+      </center>
     </div>
     <div class="footer">
-
+      <div class="footer_right">
+        <ul>
+          <li>
+            <a href="http://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+          </li>
+          <li>
+            <a href="http://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/preferences?hl=en">Settings</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_left">
+        <ul>
+          <li>
+            <a href="http://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+          </li>
+          <li>
+            <a href="http://www.google.com/services/?fg=1">Business</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/intl/en/about.html?fg=1">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
